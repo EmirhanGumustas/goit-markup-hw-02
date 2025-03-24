@@ -1,58 +1,76 @@
 body{
-    font-family: "Raleway","Roboto Condensed" ,sans-serif;
+    font-family: "Raleway","Roboto" ,sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
 }
-:root{
-  --navy-buly:#2E2F42;
-  --slate:#434455;
-  --cloud:#F4F4FD;
+ul{
+      list-style-type: none;
 }
 .logo{
-  color:#4D5AE5;
+  color: #4D5AE5;
+  font-weight: 700;
+  font-size: 18px;
 }
-.navy-buly-color{
-  color:var(--navy-buly);
+nav ul li{
+  font-weight:bold;
+  color: #2E2F42;
 }
-
-nav ul li a{
-  color:#2E2F42;
-  text-decoration: none;
+nav a{
+    text-decoration: none;
 }
-.text{
-  text-decoration: none;
+address ul li{
+  color: #434455;
+  font-style: normal;
 }
-
-ul{
-  list-style-type: none;
+.logo-{
+ font-weight: 700;
+ font-size: 18px;
+}
+h1{
+  font-size: 56px;
 }
 .section-one{
-  background-color: var(--navy-buly);
-  text-align: center;
-  height: 600px;
-  font-weight: 600;
-  font-size: 56px;
-  color: white;
+    text-align: center;
+    background-color: #2e2f42;
+    color:white;
 }
 button{
+  font-weight: 500;
+  color: white;
   background-color: #4D5AE5;
+  border-radius: 4px;
   width: 169px;
   height: 56px;
-  color: white;
-  border-radius: 4px;
-  font-size: 16px;
 }
-footer{
-  background-color: var(--navy-buly);
-  color: white;
+button:hover{
+  background-color:#404BBF;
 }
-address ul{
-  color: var(--slate);
+.frame{
+  width: 274px;
+   height: 104px;
 }
-nav{
-  font-weight:bold;
-}
-.cloud-background{
-  background-color:var(--cloud);
+.section-three{
+  text-align: center;
+  background-color: #F4F4FD;
 }
 h2{
-  font-size: 32px;
+  font-weight: 700;
+  font-size: 36px;
+}
+h3{
+  font-weight: 500;
+  font-size: 20px;
+}
+ul li p{
+  font-weight: 400;
+font-size: 16px;
+}
+.section-four{
+  text-align: center;
+}
+footer{
+  background-color: #2e2f42;
+  color: white;
+  padding-left: 120px;
 }
