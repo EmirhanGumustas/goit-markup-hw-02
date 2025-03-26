@@ -81,3 +81,6 @@ ul li a{
 .background-white{
   background-color: white;
 }
+.border{
+  border:1px solid #828DFF;
+}
